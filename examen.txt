@@ -1,0 +1,45 @@
+1.¿Para qué utilizamos `JSON.parse(xhttp.responseText)`?
+R=[Convertir una respuesta de texto en un Objecto iterable]
+
+2.¿Cual es el método recomendando por la comunidad para manejar asincronismo en JavaScript?
+R=  async/await
+
+3.¿Para qué nos sirve el método "catch()"?
+R=[Registrar la razón del rechazo] 
+
+4.¿Para qué nos sirve el método XMLHttpRequest?
+R= [Nos permite realizar solicitudes HTTP de una forma muy fácil]
+
+5.¿Expresión la cual pausa la ejecución de la función así­ncrona y espera la resolución de la Promise?
+R=[await]
+
+6.¿Nos permite ejecutar una serie de promesas secuencialmente?
+R=[Promise.all()]
+
+7.¿Cuál es la forma correcta de retornar un Error en reject?
+R=[reject (new Error(`Error`))]
+
+8.¿Cómo aseguramos manejar los errores asincrónicos correctamente?
+R=[try { ...código } catch (error) { ...código }]
+
+9.¿La recomendación de la comunidad para anidar callbacks es?
+R=[Un máximo de 3 callbacks] 
+
+10.¿Nos permite definir una función así­ncrona?
+R= [async]
+
+11.¿Cuáles son los argumentos que recibe una promesa?
+R= [resolve, reject]
+
+12.¿Las promesas resuelven un principal problema de las callbacks?
+R=callbacks
+R2=callbacks hells
+
+13.¿El estado 4 de xhttp.readyState hace referencia?
+R=[COMPLETED, La operación está terminada]
+
+14.¿Para qué nos sirve xhttp.status === 200?
+R=[Verificamos que el estatus de la petición HTTP resuelva el estado 200] 
+
+15.¿El método then() retorna?
+R=[Promesa]
